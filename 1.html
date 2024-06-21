@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/favicon.svg" type="image/svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css'><link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"> 
+
+
+    <title>Quotes App</title>
+</head>
+<body background="img.webp">
+<!---HEADER SECTION STARTS-->
+    <header>
+        <div class="container">
+          <div class="navbar">
+            <div class="logo" >
+           <h3>QUOTE GENERATOR</h3>
+            </div>
+            <nav>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <section>
+       <!-- INFORMATION SECTION STARTS -->
+    <main id="home" style="background-color: white; height: 100%; width: 100%">
+      <div>
+          <span>Discover</span>
+          <h1 style="font-size: xx-large;">INSPIRATIONAL QUOTES</h1>
+          <hr>
+          <p> Quotations hold the power to inspire, inform, <br> and challenge us and you can pick
+            a random quote <br>that sparked you. Upon the click of a button, <br>it randomly generates a new quote.</p>
+          <a href="#quotegen">Lets Go</a>
+      </div>
+  <!-- INFORMATION SECTION ENDS -->
+
+  <!-- ANIMATED SLIDER SECTION STARTS -->
+  <div class="swiper">
+      <div class="swiper-wrapper">
+          <div class="swiper-slide swiper-slide--one">
+          <img src="images.jpg" width="100%" height="100%" alt="">
+          </div>
+
+          <div class="swiper-slide swiper-slide--two">
+          <img src="download.jpeg" width="100%" height="100%" altalt="">
+          </div>
+      
+          <div class="swiper-slide swiper-slide--three">
+         <img src="img.jpg" width="100%" height="100%" alt alt="">
+          </div>
+     
+      <!-- ANIMATED SLIDER SECTION ENDS -->
+     
+    </main>
+    </section>
+ <!--QUOTE GENERATOR STARTS-->
+      <div id="quotegen">
+        <br> 
+      <center>
+      <div class="quote-container" id="quote-container">
+        <center><h1 style="font-size: xx-large;">QUOTES</h1></center>
+        <!-- Quote -->
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote">I learned patience, perseverance, and dedication. Now I really know myself, and I know my voice. It's a voice of pain and victory. </span>
+        </div>
+        <!-- Author -->
+        <div class="quote-author">
+            <span id="author">-Author</span>
+        </div>
+        <!-- Buttons -->
+        <div class="button-container">
+          <button id="favourite"><i class="fa-regular fa-heart"></i></button>
+          <button id="show-list"><i class="fa-solid fa-list"></i>
+          </button>
+            <button class="twitter-button" id="twitter" title= "Tweet This!">
+            <i class="fab fa-x-twitter"></i>Tweet
+            </button>
+            <button class="speak-btn" id="speak"><i class="fa-solid fa-volume-high"></i></button>
+            <button class="new-quote-button" id="new-quote">New Quote</button>
+        </div>
+    </div>
+    <!-- Loader -->
+    <div class="loader" id="loader"></div>
+  </div>
+  <div class="favorite-container" style="background-color: rgb(132, 71, 15);">
+    <h3>Favorite Quotes</h3>
+    <ul id="list-of-favourite-quotes"></ul>
+    <button id="clear-button">Clear</button>
+    <button id="close-favorite">Close</button>
+  </div>
+</center>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <section style="background-color: beige; height: 100vh;">
+        <!--ABOU-->
+       
+        <div id="about"  class="container">
+          <div class="content">
+            <h1 style="font-size: xx-large;">About Us</h1>
+            <br>
+            <h3>Quotes for you to Share.</h3>
+          
+            <br>
+            <h4>
+              Be inspired by other people and wisdom. Reach other people with the right words. <br> Finding good words isn't always easy. On our quotes generator we help you <br>
+              to find the right words for every situation and occasion.
+            </h4>
+            
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer" id="contact">
+       
+        <div class="box-container">
+          <div class="box">
+            <h2>Quick Links</h2>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+          </div>
+        
+          <div class="box">
+            <h2>Contact Info</h2>
+            <li>+123-456-7890</li>
+            <li>asmaifteqar89@gmail.com</li>
+        </div>
+      
+</div>
+</section>
+<div class="footerBottom">
+    <p>Copyright &copy;2024; Designed by <span class="designer">Ansha & Asma</span></p>
+</div>
+     
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js'></script><script  src="1.js"></script>
+
+</body>
+</html>
